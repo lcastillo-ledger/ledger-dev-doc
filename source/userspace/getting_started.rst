@@ -33,12 +33,14 @@ simply prepend their location in your ``PATH`` environment variable.
    PATH=~/bolos-devenv/clang+llvm-7.0.1-x86_64-linux-gnu-ubuntu-18.04/bin:$PATH
 
 
-Cross compilation headers are required and provided within the gcc-multilib and g++-multilib packages.
+Cross compilation headers are required and provided within the gcc-multilib, g++-multilib and libncurses5 packages.
 To install them on a debian system:
 
 .. code-block:: bash
 
-   sudo apt install gcc-multilib g++-multilib
+   sudo apt install gcc-multilib g++-multilib libncurses5
+
+
 
 Setting up the SDK
 ------------------
